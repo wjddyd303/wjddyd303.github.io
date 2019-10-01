@@ -3,7 +3,24 @@ layout: about
 title: About Me
 ---
 
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
 
+<div class="columns-block container" style="width:100%">
+
+
+<div class="right-col-block blocks">
+<div class="theiaStickySidebar">
+
+<!-- Head -->
+
+<!-- Head -->
 
 <!-- Available Language -->
 <section class="section-wrapper skills-wrapper">
