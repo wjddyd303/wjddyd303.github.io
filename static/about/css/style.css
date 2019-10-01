@@ -291,51 +291,7 @@ button:focus,
     border-right : 8px solid transparent;
     }
 
-/*-------------------
- * Portfolio
- *-------------------*/
 
-.portfolio-item {
-    position      : relative;
-    display       : block;
-    margin-bottom : 30px;
-    }
-
-.portfolio-item .portfolio-thumb img {
-    height    : 200px;
-    display   : block;
-    max-width : 100%;
-    }
-
-.portfolio-item .portfolio-info {
-    position   : absolute;
-    bottom     : 0;
-    padding    : 30px 15px 5px;
-    width      : 100%;
-    background : -webkit-linear-gradient(
-            top,
-            transparent 0%,
-            rgba(0, 0, 0, 0.5) 100%
-    );
-    }
-
-.portfolio-item .portfolio-info h3 {
-    margin      : 0;
-    line-height : 1;
-    color       : #ffffff;
-    }
-
-.portfolio-item .portfolio-info small {
-    color : #ffffff;
-    }
-
-.portfolio-item:hover .portfolio-info {
-    background : -webkit-linear-gradient(
-            top,
-            transparent 0%,
-            #000 100%
-    );
-    }
 
 /*-------------------
  * Content Item
