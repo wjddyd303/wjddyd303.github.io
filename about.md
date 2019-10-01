@@ -483,6 +483,7 @@ title: About Me
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
 <!-- Bootstrap -->
 <script src="/static/about/js/bootstrap.min.js"></script>
+<script src="/static/about/js/theia-sticky-sidebar.js"></script>
 <script src="/static/about/js/scripts.js"></script>
 
 <!-- Gmail -->
