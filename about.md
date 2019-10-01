@@ -16,6 +16,9 @@ title: About Me
     <!-- font-awesome -->
     <link href="/static/about/css/font-awesome.min.css" rel="stylesheet">
     
+    <!-- Bootstrap -->
+    <link href="/static/about/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Style CSS -->
     <link href="/static/about/css/style.css" rel="stylesheet">
     
