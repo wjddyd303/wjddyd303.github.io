@@ -1,197 +1,451 @@
 ---
-# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
-# You can change it to the regular `page` layout if you want.
 layout: about
-
-# The title of the page.
-title: About
-
-# Write a short (~150 characters) description of each blog post.
-# This description is used to preview the page on search engines, social media, etc.
-description: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-# You can show the description on the page by deleting this line:
-hide_description: true
-
-# TODO
-image: /assets/img/blog/hydejack-8.png
+title: About Me
 ---
 
-The "Best Jekyll Theme by a Mile".
-{:.lead}
-
-![Screenshot](assets/img/blog/hydejack-8.png){:.lead srcset="/assets/img/blog/hydejack-8.png 1920w, /assets/img/blog/hydejack-8@0,5x.png 960w, /assets/img/blog/hydejack-8@0,25x.png 480w" data-width="1920" data-height="1080"}
-Hydejack's cover page on a variety of screens.
-{:.figure}
-
-**Hydejack** is your presence on the web. It gives you a *blog* that is suitable for both prose and technical documentation, a *portfolio* to showcase your projects, and a beautiful *resume* template that looks amazing on the web and in print.
-
-> Your presence on the web — A [blog], a [portfolio], and a [resume].
-{:.lead}
-
-There are two versions of **Hydejack**: The base version is free, while features that are specific to *professionals* are a payed upgrade.
-
-|                        | Free           | PRO      |
-|:-----------------------|:--------------:|:--------:|
-| Blog                   | &#x2714;       | &#x2714; |
-| [Features]             | &#x2714;       | &#x2714; |
-| [Portfolio]            |                | &#x2714; |
-| [Resume]               |                | &#x2714; |
-| [Welcome]              |                | &#x2714; |
-| [Newsletter Box][news] |                | &#x2714; |
-| [Custom Forms][forms]  |                | &#x2714; |
-| Dark Mode              |                | &#x2714; |
-| Cookie Banner          |                | &#x2714; |
-| Offline Support        |                | &#x2714; |
-| No Hydejack Branding   |                | &#x2714; |
-| License                | [GPL-3.0][lic] | [PRO]    |
-| Source                 | [GitHub][src]  | Included |
-| Support[^1]            | No             | No       |
-| Price                  | Free           | $59      |
-| | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]{:data-ignore=""}][nfy]{:.no-hover.no-mark} | [**Buy PRO**][buy] |
-{:.stretch-table.dl-table}
 
 
-## A Free Blogging Theme
-**Hydejack** started out as a free blogging theme for Jekyll — and continues to be so.
+<!-- Available Language -->
+<section class="section-wrapper skills-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Available Languages</h2>
+                </div>
+            </div>
 
-<!--posts-->
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="progress-wrapper">
+    				<!-- Java -->    
+                    <div class="progress-item">
+                        <span class="progress-title">Java</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 80%"><span class="progress-percent"> 80%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+    
+    				<!-- R --> 
+                    <div class="progress-item">
+                        <span class="progress-title">R</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 60%"><span class="progress-percent"> 60%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+    
+    				<!-- RDBMS -->
+                    <div class="progress-item">
+                        <span class="progress-title">RDBMS</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 70%;"><span class="progress-percent"> 70%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+    
+    				<!-- NoSQL -->
+                    <div class="progress-item">
+                        <span class="progress-title">NoSQL</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 50%;"><span class="progress-percent"> 50%</span>
+                            </div>
+                        </div>
+                        <!-- /.progress -->
+                    </div>
+                    <!-- /.skill-progress -->
+                    
+                    <!-- Web -->
+                    <div class="progress-item">
+                        <span class="progress-title">Web(CSS, HTML, Java Script, JSTL, JQuery, Ajax, MyBatis....)</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 65%;"><span class="progress-percent"> 65%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+    
+                        <!-- Python -->
+                    <div class="progress-item">
+                        <span class="progress-title">Python</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 65%;"><span class="progress-percent"> 65%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+    
+                        <!-- Spring -->
+                    <div class="progress-item">
+                        <span class="progress-title">Spring</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 75%;"><span class="progress-percent"> 75%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+    
+                        <!-- Django -->
+                    <div class="progress-item">
+                        <span class="progress-title">Django</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 55%;"><span class="progress-percent"> 55%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
+    
+                            <!-- Tensorflow -->
+                    <div class="progress-item">
+                        <span class="progress-title">Tensorflow</span>
+    
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                                 aria-valuemax="100" style="width: 40%;"><span class="progress-percent"> 40%</span>
+                            </div>
+                        </div>
+                        <!-- .progress -->
+                    </div>
+                    <!-- .skill-progress -->
 
 
-## An Impressive Portfolio
-A portfolio that's guaranteed to be impressive — no matter what you put into it.
+​    
+​                </div>
+​                <!-- /.progress-wrapper -->
+​            </div>
+​        </div>
+​        <!--.row -->
+​    </div>
+​    <!-- .container-fluid -->
+</section>
+<!-- Available Languages -->
 
-<!--projects-->
+<!-- Project -->
+<section class="section-wrapper portfolio-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Project</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <a class="portfolio-item" href="https://wjddyd66.github.io/projects/spring-project2/">
+                    <div class="portfolio-thumb">
+                        <img src="https://raw.githubusercontent.com/wjddyd66/wjddyd66.github.io/master/static/projects/bomair_logo.png" alt="">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <h3>Spring Project</h3>
+                        <small>Bom Air</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="https://wjddyd66.github.io/projects/paper/">
+                    <div class="portfolio-thumb">
+                        <img src="https://raw.githubusercontent.com/wjddyd66/wjddyd66.github.io/master/static/projects/NLP.PNG" alt="">
+                    </div>
+    
+                    <div class="portfolio-info">
+                        <h3>Paper</h3>
+                        <small>NLP</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+            <div class="col-md-6">
+                <a class="portfolio-item" href="https://wjddyd66.github.io/projects/django-project/">
+                    <div class="portfolio-thumb">
+                        <img src="https://raw.githubusercontent.com/wjddyd66/wjddyd66.github.io/master/static/projects/logo2.PNG" alt="">
+                    </div>
+    
+                    <div class="portfolio-info">
+                        <h3>Django Project</h3>
+                        <small>
+따릉이 적합도 평가</small>
+                    </div>
+                    <!-- portfolio-info -->
+                </a>
+                <!-- .portfolio-item -->
+            </div>
+    
+        </div>
+        <!-- /.row -->
+    </div>
+</section>
+<!-- Project -->
+
+<!-- Certificate -->
+<section class="section-wrapper section-experience gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Certificate</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2018/08/31</small>
+                    <h3>정보통신기사</h3>
+                    <h4>합격번호: 18-71-0155</h4>
+
+                    <p>한국방송통신전파진흥원</p>
+                </div>
+                <!-- .experience-item -->
+            <div class="content-item">
+                    <small>2018/05/25</small>
+                    <h3>정보처리기사</h3>
+                    <h4>합격번호: 18201230170A</h4>
+    
+                    <p>한국산업인력공단</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2018/05/25</small>
+                    <h3>ADSP</h3>
+                   
+                    <p>한국데이터산업진흥원</p>
+                </div>
+               
+               <div class="content-item">
+                    <small>2018/02/10</small>
+                    <h3>TOEIC</h3>
+                    <h4>점수: 690</h4>
+    
+                    <p>유효기간: 2021/02/10</p>
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
+
+</section>
+<!-- Certificate -->
+
+<!-- Education -->
+<section class="section-wrapper section-education">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title"><h2>Education</h2></div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <small>2013 - 2019</small>
+                    <h3>한국외국어 대학교</h3>
+                    <h4>전공: 정보통신 공학과</h4>
+
+                    <p>부전공: 전자공학과</p>
+                </div>
+                <!-- .experience-item -->
+                <div class="content-item">
+                    <small>2019/01 - 2019/07</small>
+                    <h3>국비교육</h3>
+                    <h4>클라우드 기반 빅데이터분석 및 자바 딥러닝 개발자</h4>
 
 
-## A Printable Resume
-Get a resume that's consistent across the board — whether it's on the web, mobile, print, or [PDF](assets/Resume.pdf).
+​                    
+​                </div>
+​                <!-- .experience-item -->
+​                <div class="content-item">
+​                    <small>2019/06 - 2019/07</small>
+​                    <h3>2019 머신러닝 스터디 잼 심화반</h3>
+​                    
+                </div>
+                <!-- .experience-item -->
+            </div>
+        </div>
+        <!--.row-->
+    </div>
+    <!-- .container-fluid -->
 
-![Resume PDF](assets/img/blog/resume.png){: data-width="1867" data-height="1389"}
-Front and center page of a print resume generated by Hydejack.
-{:.figure}
+</section>
+<!-- Education -->
 
+<!-- Interest -->
+<section class="section-wrapper section-interest gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Interest</h2>
+                </div>
+            </div>
+        </div>
+        <!-- .row -->
 
-## Just Markup
-**Hydejack** boasts a plethora of modern JavaScript, but make no mistake: It's still a plain old *web page* at its core. It works without JavaScript, and you can even view it in a text-based browser like `w3m`:
+        <div class="row">
+            <div class="col-md-12">
+                <div class="content-item">
+                    <h3>A.I</h3>
+    
+                    <p>A.I분야에 대해 관심이 많습니다. 수학적인 개념은 개인적인 공부(Googling, 서적, Youtube 등) 다양한 경로를 통하여 획득하고 있고, IDE 로서는 Tensorflow를 공부하고 있습니다. 구글 머신러닝 스터디잼 등 배울 기회가 있는 곳에 적극적으로 참여하려는 노력 중 입니다..</p>
+                </div>
+                <div class="content-item">
+                    <h3>Big Data</h3>
+    
+                    <p>A.I 의 Trainning Dataset 을 만들기 위하여 필수적인 과정이자 관심있는 분야 입니다. 통계적인 기초는 공부(Googling, 서적, Youtube 등) 다양한 경로를 통하여 획득하고 있고, IDE 로서는 R, Python을 공부하고 있습니다.</p>
+    
+                </div>
+               
+            </div>
+        </div>
+        <!-- .row -->
+    
+    </div>
+</section>
+<!-- Interest -->
 
-![w3m Screenshot](assets/img/blog/w3m.png){:data-width="1920" data-height="1260"}
-The Hydejack blog, as seen by the text browser `w3m`.
-{:.figure}
+<!-- Contact -->
+<section class="section-contact section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong>Address</strong><br>
+                    서울시 성북구 길음로9길50<br>
+                    914동 2302호
 
-
-## Syntax Highlighting
-**Hydejack** features syntax highlighting, powered by [Rouge].
-
-```js
-document.getElementsByTagName("hy-push-state")[0].addEventListener("hy-push-state-load", function() {
-  // <your init code>
-});
-```
-
-
-## Beautiful Math
-They say math is beautiful — and with **Hydejack**'s [math support][latex] it's also guaranteed to *look* beautiful.
-
-![Math Screenshot](assets/img/blog/example-content-iii.jpg){:data-width="1060" data-height="596"}
-Hydejack uses KaTeX to efficiently render math.
-{:.figure}
-
-
-## Build an Audience
-The PRO version has built-in support for customizable [Tinyletter] newsletter subscription boxes.
-
-If you are using a different service like MailChimp, you can build a custom newsletter subscription box using [Custom Forms][forms].
-
-
-## A Personal Site That Belongs to You
-**Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
-
-
-## Features
-An incomplete list of features included in all versions of **Hydejack**:
-
-* Full in-app page loading, powered by [hy-push-state]{:.external}
-* Customizable sidebar and touch-enabled drawer menu, powered by [hy-drawer]{:.external}
-* Lazy image loading with cancellation and placeholder, powered by [hy-img]{:.external}
-* Advanced FLIP animations, inspired by Material Design
-* 99/100 [Google PageSpeed Score][gpss][^2]
-* [Syntax highlighting][syntax], powered by [Rouge]
-* [LaTeX math blocks][latex], powered by [KaTeX]
-* Change the wording of built-in strings and possibly translate in other languages
-* Support for categories and tags
-* Built-in icons for many social networks
-* Simple and semantic HTML
-* Structured Data for core entities
-* Author section below each article and support for multiple authors
-* Google Analytics and Google Fonts support
-
-
-## Download
-There are two versions of **Hydejack**: The *free version* includes basic blogging functionality, as did previous versions of the theme.
-The *PRO version* includes additional features for professionals:
-A [portfolio], a [resume] layout, and a [welcome] page to highlight your favorite projects and posts.
-
-This table below shows what's included in each version:
-
-|                        | Free           | PRO      |
-|:-----------------------|:--------------:|:--------:|
-| Blog                   | &#x2714;       | &#x2714; |
-| [Features]             | &#x2714;       | &#x2714; |
-| [Portfolio]            |                | &#x2714; |
-| [Resume]               |                | &#x2714; |
-| [Welcome]              |                | &#x2714; |
-| [Newsletter Box][news] |                | &#x2714; |
-| [Custom Forms][forms]  |                | &#x2714; |
-| Dark Mode              |                | &#x2714; |
-| Cookie Banner          |                | &#x2714; |
-| Offline Support        |                | &#x2714; |
-| No Hydejack Branding   |                | &#x2714; |
-| License                | [GPL-3.0][lic] | [PRO]    |
-| Source                 | [GitHub][src]  | Included |
-| Support[^1]            | No             | No       |
-| Price                  | Free           | $59      |
-| | [**Download**][kit] <br/>-- or --<br/> [![Deploy to Netlify][dtn]{:data-ignore=""}][nfy]{:.no-hover.no-mark} | [**Buy PRO**][buy] |
-{:.stretch-table.dl-table}
+                </address>
+                <address>
+                    <strong>Phone Number</strong><br>
+                    010 8947 2534
+                </address>
 
 
+​               
 
-[^1]: You MAY open an issue on GitHub, but no response and/or fix is guaranteed.
-      You understand that using Jekyll requires technical know-how and is not comparable to Wordpress in terms of ease of use. Please use the free version to confirm that Hydejack works for you. For details, see the [PRO] license.
 
-[^2]: Actual page load speed depends on your hosting provider, resolution of embedded images and usage of 3rd party plugins.
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:#">wjddyd66@naver.com</a>
+                </address>
+            </div>
+        </div>
+    
+        <!--.row-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="feedback-form">
+                    <h2>Get in touch</h2>
+    
+                    <form class="gform pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbxATH2hvD5ouueT5UmmARk4n8lrCPYCD9kCixvU/exec" method="post">
+<div class='form-elements'>
+                        <div class="form-group">
+                            <label for="InputName">Name</label>
+                            <input type="text" name="name" required="" class="form-control" id="InputName"
+                                   placeholder="Full Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Email address</label>
+                            <input type="email" name="email" required="" class="form-control" id="InputEmail"
+                                   placeholder="Email">
+                        </div>
+                        <div class="form-group form-elements">
+                            <label for="InputSubject">Subject</label>
+                            <input type="text" name="subject" class="form-control" id="InputSubject"
+                                   placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="control-label">Message</label>
+                            <textarea class="form-control" rows="4" required="" name="message" id="message-text"
+                                      placeholder="Write message"></textarea>
+                        </div>
 
-[blog]: https://hydejack.com/blog/
-[portfolio]: https://hydejack.com/projects/
-[resume]: https://hydejack.com/resume/
-[download]: https://hydejack.com/download/
-[welcome]: https://hydejack.com/
-[forms]: https://hydejack.com/forms-by-example/
+      <button class="button-success pure-button button-xlarge form-elements">
+        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+</div>
+     <div class="thankyou_message" style="display:none;">
+      <h2><em>Mail 전송 완료!</em> 확인하는 즉시 답장 드리겠습니다.</h2>
+    </div>
+                    </form>
+                </div>
+                <!-- .feedback-form -->
 
-[features]: #features
-[news]: #build-an-audience
-[syntax]: #syntax-highlighting
-[latex]: example/_posts/2018-06-01-example-content-iii.md#math
 
-[lic]: https://hydejack.com/LICENSE/
-[pro]: https://hydejack.com/licenses/PRO/
-[docs]: https://hydejack.com/docs/
+            </div>
+        </div>
+    </div>
+    <!--.container-fluid-->
+</section>
+<!--.section-contact-->
 
-[kit]: https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
-[src]: https://github.com/qwtel/hydejack
-[gem]: https://rubygems.org/gems/jekyll-theme-hydejack
-[buy]: https://app.simplegoods.co/i/NATYVLYT
-[nfy]: https://app.netlify.com/start/deploy?repository=https://github.com/qwtel/hydejack-starter-kit
-[dtn]: https://www.netlify.com/img/deploy/button.svg
+<footer class="footer">
+    <div class="copyright-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copytext">&copy; Resumex. All rights reserved | Design By: <a
+                            href="https://themehippo.com">themehippo</a></div>
+                </div>
+            </div>
+            <!--.row-->
+        </div>
+        <!-- .container-fluid -->
+    </div>
+    <!-- .copyright-section -->
+</footer>
+<!-- .footer -->
+</div>
+<!-- Sticky -->
+</div>
+<!-- .right-col-block -->
+</div>
+<!-- .columns-block -->
+</div>
+<!-- #main-wrapper -->
 
-[gpss]: https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fhydejack.com%2F
-[hy-push-state]: https://qwtel.com/hy-push-state/
-[hy-drawer]: https://qwtel.com/hy-drawer/
-[hy-img]: https://qwtel.com/hy-img/
-[rouge]: http://rouge.jneen.net
-[katex]: https://khan.github.io/KaTeX/
-[tinyletter]: https://tinyletter.com/
 
-*[FLIP]: First-Last-Invert-Play. A coding technique to achieve performant page transition animations.
+<!-- Gmail -->
+<script src="/static/about/js/gmail.js"></script>
+<script src="/static/about/js/form-submission-handler.js"></script>
+</body>
