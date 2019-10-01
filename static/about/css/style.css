@@ -20,7 +20,6 @@ body {
     line-height : 1.8em;
     color       : #3d3d50;
     font-weight : 300;
-    background  : url("../img/pattern-bg.png") fixed;
     }
 
 /* --------------------------------------
@@ -389,6 +388,8 @@ button:focus,
     background-color : #FFC107;
     box-shadow       : none;
     text-align       : right;
+    float            : left;
+    height           : 100%;
     }
 
 .progress-item .progress-percent {
@@ -398,6 +399,7 @@ button:focus,
     top              : 5px;
     padding          : 0 8px;
     border-radius    : 3px;
+    color: white;
     }
 
 .progress-item .progress-percent::before {
@@ -549,6 +551,7 @@ button:focus,
 
 #status,
 .status-mes {
+    background-image    : url(../img/preloader.svg);
     background-position : center;
     background-repeat   : no-repeat;
     height              : 200px;
