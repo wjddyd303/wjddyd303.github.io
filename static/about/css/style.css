@@ -522,32 +522,6 @@ button:focus,
     box-shadow : none;
     }
 
-/* --------------------------------------------
- *   Footer
- *---------------------------------------------- */
-
-/* Copyright */
-
-.footer {
-    padding : 30px 50px;
-    }
-
-.footer .copyright-section {
-    font-size : 13px;
-    color     : #888888;
-
-    }
-
-.footer .copyright-section .copytext {
-    font-weight : 400;
-    display     : block;
-    }
-
-@media (max-width : 480px) {
-    .footer {
-        padding : 10px 20px;
-        }
-    }
 
 /* ---------------------------------------------- /*
  * Preloader

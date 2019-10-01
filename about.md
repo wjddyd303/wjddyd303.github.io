@@ -303,7 +303,7 @@ title: About Me
                 <div class="section-title"><h2>Education</h2></div>
             </div>
         </div>
-        <!--.row-->
+        
         <div class="row">
             <div class="col-md-12">
                 <div class="content-item">
@@ -313,25 +313,18 @@ title: About Me
 
                     <p>부전공: 전자공학과</p>
                 </div>
-                <!-- .experience-item -->
+                
                 <div class="content-item">
                     <small>2019/01 - 2019/07</small>
                     <h3>국비교육</h3>
                     <h4>클라우드 기반 빅데이터분석 및 자바 딥러닝 개발자</h4>
-
-
-​                    
-​                </div>
-​                <!-- .experience-item -->
+                </div>
 ​                <div class="content-item">
 ​                    <small>2019/06 - 2019/07</small>
 ​                    <h3>2019 머신러닝 스터디 잼 심화반</h3>
-​                    
 ​                </div>
-​                <!-- .experience-item -->
 ​            </div>
 ​        </div>
-​        <!--.row-->
 ​    </div>
 ​    <!-- .container-fluid -->
 
