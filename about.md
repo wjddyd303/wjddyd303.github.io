@@ -16,9 +16,6 @@ title: About Me
     <!-- font-awesome -->
     <link href="/static/about/css/font-awesome.min.css" rel="stylesheet">
     
-    <!-- Bootstrap -->
-    <link href="/static/about/css/bootstrap.min.css" rel="stylesheet">
-    
     <!-- Style CSS -->
     <link href="/static/about/css/style.css" rel="stylesheet">
     
@@ -330,13 +327,13 @@ title: About Me
 ​                    <small>2019/06 - 2019/07</small>
 ​                    <h3>2019 머신러닝 스터디 잼 심화반</h3>
 ​                    
-                </div>
-                <!-- .experience-item -->
-            </div>
-        </div>
-        <!--.row-->
-    </div>
-    <!-- .container-fluid -->
+​                </div>
+​                <!-- .experience-item -->
+​            </div>
+​        </div>
+​        <!--.row-->
+​    </div>
+​    <!-- .container-fluid -->
 
 </section>
 <!-- Education -->
@@ -481,11 +478,8 @@ title: About Me
 
 <!-- jquery -->
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
-<!-- Bootstrap -->
-<script src="/static/about/js/bootstrap.min.js"></script>
 <script src="/static/about/js/theia-sticky-sidebar.js"></script>
 <script src="/static/about/js/scripts.js"></script>
-
 <!-- Gmail -->
 <script src="/static/about/js/gmail.js"></script>
 <script src="/static/about/js/form-submission-handler.js"></script>
