@@ -35,11 +35,9 @@ title: About Me
 <div id="main-wrapper">
 <!-- Page Preloader -->
 
-<div class="columns-block container" style="width:100%">
-
 
 <div class="right-col-block blocks">
-<div class="theiaStickySidebar">
+
 
 <!-- Head -->
 
@@ -477,10 +475,7 @@ title: About Me
 <!-- .footer -->
 </div>
 <!-- Sticky -->
-</div>
-<!-- .right-col-block -->
-</div>
-<!-- .columns-block -->
+
 </div>
 <!-- #main-wrapper -->
 
@@ -488,7 +483,6 @@ title: About Me
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
 <!-- Bootstrap -->
 <script src="/static/about/js/bootstrap.min.js"></script>
-<script src="/static/about/js/theia-sticky-sidebar.js"></script>
 <script src="/static/about/js/scripts.js"></script>
 
 <!-- Gmail -->
