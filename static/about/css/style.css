@@ -437,6 +437,7 @@ button:focus,
     height    : 200px;
     display   : block;
     max-width : 100%;
+    width     : 100%;
     }
 
 .portfolio-item .portfolio-info {
@@ -601,4 +602,15 @@ button:focus,
     border-radius: 0;
     box-shadow: none;
     box-sizing: border-box;
+    width: 100%;
 }
+
+
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
