@@ -33,11 +33,6 @@ title: About Me
 <body id="page-top" data-spy="scroll" data-target=".navbar">
 <div id="main-wrapper">
 <!-- Page Preloader -->
-<div id="preloader">
-    <div id="status">
-        <div class="status-mes"></div>
-    </div>
-</div>
 
 <div class="columns-block container" style="width:100%">
 
@@ -488,6 +483,12 @@ title: About Me
 </div>
 <!-- #main-wrapper -->
 
+<!-- jquery -->
+<script src="/static/about/js/jquery-2.1.4.min.js"></script>
+<!-- Bootstrap -->
+<script src="/static/about/js/bootstrap.min.js"></script>
+<script src="/static/about/js/theia-sticky-sidebar.js"></script>
+<script src="/static/about/js/scripts.js"></script>
 
 <!-- Gmail -->
 <script src="/static/about/js/gmail.js"></script>
