@@ -171,15 +171,13 @@ title: About Me
                     </div>
                     <!-- .skill-progress -->
 
-
-​    
-​                </div>
-​                <!-- /.progress-wrapper -->
-​            </div>
-​        </div>
-​        <!--.row -->
-​    </div>
-​    <!-- .container-fluid -->
+               </div>           
+               <!-- /.progress-wrapper -->
+            </div>
+        </div>
+        <!--.row -->
+    </div>
+    <!-- .container-fluid -->
 </section>
 <!-- Available Languages -->
 
@@ -318,15 +316,15 @@ title: About Me
                     <small>2019/01 - 2019/07</small>
                     <h3>국비교육</h3>
                     <h4>클라우드 기반 빅데이터분석 및 자바 딥러닝 개발자</h4>
+                </div> 
+                <div class="content-item">
+                  <small>2019/06 - 2019/07</small>
+                 <h3>2019 머신러닝 스터디 잼 심화반</h3>
                 </div>
-​                <div class="content-item">
-​                    <small>2019/06 - 2019/07</small>
-​                    <h3>2019 머신러닝 스터디 잼 심화반</h3>
-​                </div>
-​            </div>
-​        </div>
-​    </div>
-​    <!-- .container-fluid -->
+           </div>
+        </div>
+   </div>
+   <!-- .container-fluid -->
 
 </section>
 <!-- Education -->
@@ -390,7 +388,6 @@ title: About Me
                 </address>
 
 
-​               
 
 
                 <address>
