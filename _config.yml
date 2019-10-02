@@ -210,19 +210,13 @@ collections:
 # ========================================================================================
 
 exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
+  - README.md
+  - LICENSE.md
   - node_modules
   - package.json
   - package-lock.json
-  - webpack.config.js
-  - "*.gemspec"
-  - _js
-  - _plugins
-  - .sass-cache
-include:
-  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
 
 
 # Plugins
