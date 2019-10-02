@@ -1,21 +1,4 @@
-# Config
-# ========================================================================================
 
-# IMPORTANT: Set the URL of your site.
-# Set to https://<username>.github.io when hosting on GitHub Pages
-# (unless you are using a custom domain).
-# url:                   https://<username>.github.io
-
-# IMPORTANT: Set The "base URL" of your site.
-# When your site sits in a subdirectory, set to /<name of directory>
-# (with leading /, but without the < >).
-# Use the empty string '' otherwise.
-# For GitHub project sites, this is usually the name of the project,
-# e.g. `/hydejack`.
-# baseurl:               ''
-
-# Language of your content in 2-letter code, e.g.: en, de.
-# You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
@@ -42,8 +25,8 @@ logo:                  /static/img/letter.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <Hwang> <Jeong Yong>
-  email:               <wjddyd66@naver.com>
+  name:                Hwang Jeong Yong
+  email:               wjddyd66@naver.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -220,11 +203,11 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /category/:name/
     output:            true
 
   featured_tags:
-    permalink:         /tag-:name/
+    permalink:         /tag/:name/
     output:            true
 
   projects:
