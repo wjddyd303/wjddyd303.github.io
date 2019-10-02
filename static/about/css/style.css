@@ -66,41 +66,6 @@ h6 {
     line-height : 1.5em;
     }
 
-/* --------------------------------------
- * LINK STYLE
- *------------------------------------------*/
-a {
-    color              : #FFC107;
-    text-decoration    : none;
-    -webkit-transition : all 0.3s ease 0s;
-    -moz-transition    : all 0.3s ease 0s;
-    -o-transition      : all 0.3s ease 0s;
-    transition         : all 0.3s ease 0s;
-    }
-
-a,
-a:active,
-a:focus,
-a:active {
-    text-decoration : none;
-    outline         : none
-    }
-
-a:hover,
-a:focus {
-    text-decoration : none;
-    color           : #ff9800;
-    }
-
-p {
-    margin-bottom : 20px;
-    }
-
-ul {
-    margin     : 0;
-    padding    : 0;
-    list-style : none;
-    }
 
 /*------------------
  * Button Style

@@ -452,7 +452,6 @@ title: About Me
 
 <!-- jquery -->
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
-<script src="/static/about/js/scripts.js"></script>
 <!-- Gmail -->
 <script src="/static/about/js/gmail.js"></script>
 <script src="/static/about/js/form-submission-handler.js"></script>
