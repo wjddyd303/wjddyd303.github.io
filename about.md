@@ -170,7 +170,7 @@ title: About Me
                         <!-- .progress -->
                     </div>
                     <!-- .skill-progress -->
-
+    
                </div>           
                <!-- /.progress-wrapper -->
             </div>
@@ -301,14 +301,14 @@ title: About Me
                 <div class="section-title"><h2>Education</h2></div>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-12">
                 <div class="content-item">
                     <small>2013 - 2019</small>
                     <h3>한국외국어 대학교</h3>
                     <h4>전공: 정보통신 공학과</h4>
-
+    
                     <p>부전공: 전자공학과</p>
                 </div>
                 
@@ -452,7 +452,6 @@ title: About Me
 
 <!-- jquery -->
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
-<script src="/static/about/js/theia-sticky-sidebar.js"></script>
 <script src="/static/about/js/scripts.js"></script>
 <!-- Gmail -->
 <script src="/static/about/js/gmail.js"></script>
