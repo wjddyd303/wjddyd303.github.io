@@ -43,7 +43,7 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   name:                <Hwang> <Jeong Yong>
-  email:               wjddyd66@naver.com
+  email:               <wjddyd66@naver.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
