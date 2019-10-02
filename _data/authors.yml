@@ -15,7 +15,7 @@ author1:
 
   # This photo will be used in the about section.
   picture:
-    path:            /static/img/programmer.png
+    path:            https://github.com/wjddyd66/wjddyd66.github.io/blob/master/static/img/programmer.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
       1x:            https://placehold.it/128x128
@@ -27,7 +27,7 @@ author1:
     #twitter:         jekyllrb
     github:          wjddyd66
     # download:        <url>
-    email:           <wjddyd66@naver.com>
+    email:           wjddyd66@naver.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
