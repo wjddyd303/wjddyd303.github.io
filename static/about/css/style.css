@@ -16,10 +16,10 @@ Author: themehippo.com
 
 body {
     font-family : 'Hind', sans-serif;
-    font-size   : 15px;
     line-height : 1.8em;
     color       : #3d3d50;
-    font-weight : 300;
+    font-weight : 400;
+    font-weight-bold: 700;
     }
 
 /* --------------------------------------
