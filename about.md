@@ -10,11 +10,7 @@ title: About Me
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Resumex - Professional HTML CSS Resume Website Template</title>
 
-    <!-- web-fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
-    
-    <!-- font-awesome -->
-    <link href="/static/about/css/font-awesome.min.css" rel="stylesheet">
+   
     
     <!-- Style CSS -->
     <link href="/static/about/css/style.css" rel="stylesheet">
@@ -453,10 +449,8 @@ title: About Me
 <!-- jquery -->
 
 <script src="/static/about/js/jquery-2.1.4.min.js"></script>
-
 <script src="/static/about/js/theia-sticky-sidebar.js"></script>
 <script src="/static/about/js/scripts.js"></script>
-
 <!-- Gmail -->
 <script src="/static/about/js/gmail.js"></script>
 <script src="/static/about/js/form-submission-handler.js"></script>
