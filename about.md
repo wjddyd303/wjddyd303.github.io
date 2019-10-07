@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: About Me
 ---
 
@@ -10,8 +10,8 @@ title: About Me
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Resumex - Professional HTML CSS Resume Website Template</title>
 
-   
-    
+
+
     <!-- Style CSS -->
     <link href="/static/about/css/style.css" rel="stylesheet">
     
