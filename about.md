@@ -372,24 +372,23 @@ title: About Me
         <!--.row-->
         <div class="row">
             <div class="col-md-12">
-                <address>
-                    <strong>Address</strong><br>
-                    서울시 성북구 길음로9길50<br>
-                    914동 2302호
+                <div class="content-item">
+                    <h3>Address</h3>
+                    <p>서울시 성북구 길음로9길50 914동 2302호</p>
 
-                </address>
-                <address>
-                    <strong>Phone Number</strong><br>
-                    010 8947 2534
-                </address>
-
+                </div>
+                <div class="content-item">
+                    <h3>Phone Number</h3>
+                    <p>010 8947 2534</p>
+                </div>
 
 
 
-                <address>
-                    <strong>Email</strong><br>
-                    <a href="mailto:#">wjddyd66@naver.com</a>
-                </address>
+
+                <div class="content-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:#">wjddyd66@naver.com</a></p>
+                </div>
             </div>
         </div>
     
