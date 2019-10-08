@@ -1,10 +1,10 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               reniew's blog
-tagline:             'cs and deep learning'
-description:         'cs and deep learning'
-url:                 https://reniew.github.io
+title:               Cornor's blog
+tagline:             'Cloud and Deep learning'
+description:         'Cloud and Deep learning'
+url:                 https://wjddyd66.github.io
 baseurl: 
 encoding: utf-8
 
@@ -51,16 +51,16 @@ nav:
 
 # About/contact
 author:
-  name: reniew
-  description: <strong>JungHyun</strong>
-  gravatar: acbbb7e6ecc45391c6d4d9953b5d27e7 # md5 hash of your email address
+  name: Cornor
+  description: <strong>Hwang Jeong Yong</strong>
+  #gravatar: acbbb7e6ecc45391c6d4d9953b5d27e7 # md5 hash of your email address
   contact:
     #linkedin:  <hide>
-    github:    https://github.com/reniew
-    facebook:  https://www.facebook.com/people/%EC%A1%B0%EC%A4%91%ED%98%84/100001883067095
+    github:    https://github.com/wjddyd66
+    #facebook:  https://www.facebook.com/people/%EC%A1%B0%EC%A4%91%ED%98%84/100001883067095
     #twitter:  <hide>
     #weibo:    <hide>
-    email:     mailto:reniew1@nate.com
+    email:     mailto:wjddyd66@naver.com
 
 # Markdown specs
 markdown: kramdown
@@ -85,5 +85,5 @@ theme: "ed."
 
 # Plugins
 mathjax: true
-google_analytics_token: 'UA-122743068-1'
-disqus_short_name: 'reniew'
+#google_analytics_token: 'UA-122743068-1'
+disqus_short_name: 'disqus_nzaTYxq1XX'
