@@ -45,7 +45,8 @@ nav:
     - '/'
   Contents:
     - '/contents/'
-    - { Categories: '/contents/categories/' }
+  Categories:
+    - '/category/JAVA'
   About:
     - '/about/'
 
