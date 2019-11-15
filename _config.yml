@@ -2,7 +2,7 @@ title:            Cornor's Blog
 description:      AI중에서도 DeepLearning에 관한 Post를 많이 하는 Blog입니다.
 
 # put your disqus here
-disqus_shortname: wjddyd66
+disqus_shortname: stackproblems
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
@@ -41,7 +41,7 @@ menu:
 owner:
   name:           Your name
   site:           https://wjddyd303.github.io
-  avatar:         images/avatar.jpg
+  avatar:         /static/img/AI/149.PNG
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          wjddyd66@naver.com
   # Twitter nick for use in Twitter cards and follow button.
@@ -104,3 +104,10 @@ include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
