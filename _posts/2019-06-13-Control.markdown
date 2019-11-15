@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "JAVA-조건문, 반복문"
+description: "Examples and code for displaying images in posts."
+tags: [sample post, images, test]
 date:   2019-06-13 11:45:20 +0700
 categories: [JAVA]
 ---
