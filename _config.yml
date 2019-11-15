@@ -1,8 +1,8 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            Cornor's Blog
+description:      AI중에서도 DeepLearning에 관한 Post를 많이 하는 Blog입니다.
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: wjddyd66
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
@@ -40,14 +40,14 @@ menu:
 # Owner/author information
 owner:
   name:           Your name
-  site:           http://aronbordin.com
+  site:           https://wjddyd303.github.io
   avatar:         images/avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          wjddyd66@naver.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: wjddyd303
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
