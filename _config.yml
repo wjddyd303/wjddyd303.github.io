@@ -1,90 +1,106 @@
-# Built with Jekyll 3.2.0
+title:            Blog Title
+description:      Describe your website here.
 
-# Setup
-title:               Cornor's blog
-tagline:             'Cloud and Deep learning'
-description:         'Cloud and Deep learning'
-url:                 https://wjddyd66.github.io
-baseurl: 
-encoding: utf-8
+# put your disqus here
+disqus_shortname:
+reading_time:     true # if true, shows the estimated reading time for a post
+words_per_minute: 200
+logo:             images/logo.png # logo visible in the topbar
+excerpt_separator: <!--more-->
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
 
-# Site configurations
-gems:
-  - jekyll-paginate
-markdown: kramdown
-kramdown:
-  input: GFM
-excerpt_separator: "<!-- more -->"
+url: http://aronbordin.com/neo-hpstr-jekyll-theme
+
+# draw your top menu here
+# each item must have a title and a url.
+#   To list post categories. use type: 'categories'
+#   To create sub categories. add a submenu item
+# See the example
+menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'Fork'
+    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
+  - title: 'Install'
+    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
+  - title: 'Tags'
+    url: '/tags'
+  - title: 'Categories'
+    url: '/categories'
+    type: 'categories'
+  - title: 'Favorites'
+    url: '#'
+    submenu:
+      - title: 'Code Highlighter'
+        url: '/intro/code-highlighting-post/'
+      - title: 'Sample Post'
+        url: '/intro/sample-post/'
+
+# Owner/author information
+owner:
+  name:           Your name
+  site:           http://aronbordin.com
+  avatar:         images/avatar.jpg
+  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  email:          you@email.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: aron-bordin
+
+# Twitter account associated with the site if different from owner/author twitter account.
+# Used in Twitter cards.
+twitter:
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+social:
+  - title: "github"
+    url: "https://github.com/aron-bordin"
+  - title: "linkedin"
+    url: "https://br.linkedin.com/in/aronbordin"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+locale:      en_US
+future:      true
+highlighter: rouge
+markdown:    kramdown
 sass:
-  style: compressed
   sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
 paginate: 5
-paginate_path: '/contents/page:num'
-permalink: pretty
-version: 1.0.0
 
-# Permalinks
+# if true, shows the floatting share buttons
+float_share: true
 
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+# Octopress
+# Default extensions
+post_ext: md
+page_ext: md
+# Found in _templates/
+post_layout: post
+page_layout: page
+# Format titles with titlecase?
+titlecase: true
 
-permalink: pretty
-permalink: /:title/
-
-# Set encoding to UTF-8
-encoding: utf-8
-
-# Collections for texts
-collections:
-  texts:
-    output: true
-
-# Navigation (2nd level links supported)
-nav:
-  Home:
-    - '/'
-  Contents:
-    - '/contents/'
-  Categories:
-    - '/category/JAVA'
-  About:
-    - '/about/'
-
-# About/contact
-author:
-  name: Cornor
-  description: <strong>Hwang Jeong Yong</strong>
-  gravatar: 151e8b962331c0d58121cbc3fba1b2e6
-  contact:
-    #linkedin:  <hide>
-    github:    https://github.com/wjddyd66
-    #facebook:  https://www.facebook.com/people/%EC%A1%B0%EC%A4%91%ED%98%84/100001883067095
-    #twitter:  <hide>
-    #weibo:    <hide>
-    email:     mailto:wjddyd66@naver.com
-
-# Markdown specs
-markdown: kramdown
-
-kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  footnote_backlink: "&#x21a9;&#xfe0e;"
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-# Exclusions from the final site
-exclude:
-  - optional
-  - vendor
-
-# Theme
-theme: "ed."
-
-
-# Plugins
-mathjax: true
-#google_analytics_token: 'UA-122743068-1'
-#disqus_short_name: 'disqus_nzaTYxq1XX'
+include: [".htaccess"]
+exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+gems: [jekyll-paginate]
+theme: neo-hpstr-jekyll-theme
